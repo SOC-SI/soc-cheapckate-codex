@@ -1,9 +1,9 @@
 import { createBoard } from '@wixc3/react-board';
-import App from '../../../App';
+import { Login } from '../../../components/login/login';
 
 export default createBoard({
-    name: 'App',
-    Board: () => <App />,
+    name: 'Login',
+    Board: () => <Login />,
     environmentProps: {
         windowWidth: 360,
         windowHeight: 740,
